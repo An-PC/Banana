@@ -58,6 +58,7 @@ header>div {
 
 #logo-im2 {
 	width: 100%;
+	max-width: 300px;
 	height: 300px;
 	margin: auto;
 	background: url(logo/logo300.png) no-repeat center;
