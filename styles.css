@@ -168,6 +168,7 @@ footer a:hover {
 
 	.hidden-sm {
 		visibility: hidden;
+		position: absolute;
 	}
 
 	h1>div {
@@ -183,17 +184,19 @@ footer a:hover {
 	.vignette {
 		width:30vw;
 		height:30vw;
-		padding:2vw;
+		padding:2vw;	
 	}
 
 	footer>div>div:nth-child(1) {
 		text-align: center;
-		padding: 10px 0px 10px 0px;
+		padding: 0px;
 	}
 
 	footer>div>div:nth-child(1)>p {
+		display: inline;
 		border-style: solid;
 		border-width: 1px;
+		line-height: 3;
 	}
 
 	footer>div>div:nth-child(2) {
